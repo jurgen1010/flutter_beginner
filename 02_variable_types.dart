@@ -19,11 +19,12 @@ void main() {
 //String multilinea
   print("""
 
-  $superheroe
-  $edad
-  $isVillain
-  $abilities
-  $sprites
-  $errorMessage
+    $superheroe
+    $edad
+    $isVillain
+    $abilities
+    $sprites
+    $errorMessage
+
   """);
 }
