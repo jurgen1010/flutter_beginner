@@ -18,7 +18,7 @@ int addTwoNumbers(int a, int b) {
 //Ahora addTwoNumbers en funcion tipo flecha (lambda funcion)
 int addTwoNumbers(int a, int b) => a + b;
 
-//envolvemos el parametro con  [  ]
+//envolvemos el parametro con  [  ] para que sea un parametro opcional
 int addTwoNumbersOptional(int a, [int b = 0]) {
 //  b ??= 0; forma en la que podemos asignar valor de 0 por defecto cuando no es definido
 
