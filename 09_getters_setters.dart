@@ -1,8 +1,8 @@
 void main() {
 
-  final mySquare = Square( side: 10);
+  final mySquare = Square( side: -2 );
 
-  mySquare.side = -5;
+  //mySquare.side = 5;
 
   print( 'área:  ${ mySquare.area  }' );
 }
@@ -12,8 +12,10 @@ class Square {
   // _ para indicar que es un atributo privado
   double _side; // side * side
 
+  //constructor
   Square ( { required double side })
-      :_side = side;
+      : assert (side >= 0, 'side must be >= 0'),
+        _side = side;
 
   //Getters
   double get area {
